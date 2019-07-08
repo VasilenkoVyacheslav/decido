@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>LOCATION Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.799999952">
+        <g id="HEADER" transform="translate(-295.000000, -6.000000)" stroke="#E57C6B">
+            <g id="1-level">
+                <g>
+                    <g id="icon/prices/red" transform="translate(292.000000, 2.000000)">
+                        <path d="M5.14029436,1.99013653 C4.86438998,1.99013653 4.64063106,2.21362285 4.64029473,2.48952703 L4.62517254,14.8948108 C4.62501063,15.0276302 4.67770123,15.1550562 4.77161878,15.2489737 L9.75166573,20.2290207 C9.94692788,20.4242828 10.2635104,20.4242828 10.4587725,20.2290207 L15.5037462,15.184047 C15.5984456,15.0893476 15.6511959,14.960616 15.6501783,14.8266947 L15.5564148,2.48633758 C15.554328,2.21168557 15.3310892,1.99013653 15.0564292,1.99013653 L5.14029436,1.99013653 Z" id="Rectangle-15" transform="translate(10.137682, 11.182802) rotate(135.000000) translate(-10.137682, -11.182802) "></path>
+                        <path d="M9.96401203,19.291134 L10.028173,8.46893164 C10.0346911,7.36951105 10.9274112,6.48149658 12.0268509,6.48078913 L20.2584027,6.47549241" id="Rectangle-15-Copy" stroke-linecap="round" transform="translate(15.111207, 12.883313) rotate(135.000000) translate(-15.111207, -12.883313) "></path>
+                        <circle id="Oval-9" cx="7.5" cy="8.5" r="1.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

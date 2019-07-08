@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>LOCATION Copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.799999952">
+        <g id="HEADER" transform="translate(-432.000000, -5.000000)">
+            <g id="1-level">
+                <g>
+                    <g id="icon/files/red" transform="translate(428.000000, 2.000000)">
+                        <path d="M5,3.5 C4.72385763,3.5 4.5,3.72385763 4.5,4 L4.5,20 C4.5,20.2761424 4.72385763,20.5 5,20.5 L18,20.5 C18.2761424,20.5 18.5,20.2761424 18.5,20 L18.5,8.4689817 C18.5,8.33804816 18.4486402,8.21233878 18.3569558,8.1188638 L13.9735829,3.6498821 C13.879552,3.55401479 13.7509116,3.5 13.6166271,3.5 L5,3.5 Z" id="Rectangle-17" stroke="#E57C6B" stroke-width="1"></path>
+                        <polyline id="Rectangle-7" stroke="#E57C6B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.535534, 14.535534) rotate(-45.000000) translate(-11.535534, -14.535534) " points="14.0355339 17.0355339 9.03553391 17.0355339 9.03553391 12.0355339"></polyline>
+                        <rect id="Rectangle" fill="#E57C6B" fill-rule="evenodd" x="11" y="6" width="1" height="12" rx="0.5"></rect>
+                        <path d="M18.5965074,8.51711857 L14.5543428,8.51711857 C14.0020581,8.51711857 13.5543428,8.06940332 13.5543428,7.51711857 L13.5543428,3.48540901" id="Rectangle-18" stroke="#E57C6B" stroke-width="1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

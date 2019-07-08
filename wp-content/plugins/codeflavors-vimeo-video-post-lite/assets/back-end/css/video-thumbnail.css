@@ -1,0 +1,11 @@
+#cvm-import-video-thumbnail {
+    text-decoration: none;
+    color: #000;
+    border: 1px #CCC solid;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.description.cvm-error {
+    color: red;
+}

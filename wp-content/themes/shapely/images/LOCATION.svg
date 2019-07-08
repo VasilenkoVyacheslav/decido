@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>LOCATION</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Catalog-1366-|-1024-|-768-|-320-+-filtreS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.799999952">
+        <g id="1366-Decido-Catalog-Filter" transform="translate(-991.000000, -59.000000)" stroke="#205A59">
+            <g id="1-screen">
+                <g id="HEADER">
+                    <g id="icon/location/green" transform="translate(987.000000, 56.000000)">
+                        <path d="M12,21.34375 C12.4640074,21.34375 14.2067069,19.7459642 15.6454848,17.7645115 C17.4786391,15.2399323 18.6190476,12.5475867 18.6190476,10.2752976 C18.6190476,6.61969858 15.655599,3.65625 12,3.65625 C8.34440094,3.65625 5.38095238,6.61969856 5.38095238,10.2752976 C5.38095238,12.5819087 6.51985231,15.2780354 8.35390283,17.7928219 C9.78890983,19.7604538 11.5316471,21.34375 12,21.34375 Z" id="Oval"></path>
+                        <circle id="Oval-2" cx="12" cy="9.828125" r="3.8359375"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

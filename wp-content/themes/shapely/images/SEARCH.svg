@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>SEARCH</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Catalog-1366-|-1024-|-768-|-320-+-filtreS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.799999952">
+        <g id="1366-Decido-Catalog-Filter" transform="translate(-772.000000, -60.000000)">
+            <g id="1-screen">
+                <g id="HEADER">
+                    <g id="icon/search/green" transform="translate(768.000000, 56.000000)">
+                        <g id="Group" transform="translate(4.000000, 4.000000)">
+                            <circle id="Combined-Shape" stroke="#205A59" cx="6.5" cy="6.5" r="6"></circle>
+                            <path d="M14.0695436,9.72855339 L14.0695436,15.4105339 C14.0695436,15.9628187 13.6218284,16.4105339 13.0695436,16.4105339 C12.5172589,16.4105339 12.0695436,15.9628187 12.0695436,15.4105339 L12.0695436,9.72855339" id="Rectangle" fill="#205A59" transform="translate(13.069544, 13.069544) rotate(-45.000000) translate(-13.069544, -13.069544) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
