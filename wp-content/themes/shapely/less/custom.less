@@ -4942,6 +4942,10 @@ opacity: 0.5;
 .project-post{
  .transition;   
 }
+
+#main {
+    padding-top: 15px;
+}
 // 404 page
 .error-404{
     padding: 15px 0;
@@ -4960,6 +4964,84 @@ opacity: 0.5;
                 text-decoration: underline;
                 color: rgba(0, 0, 0, 0.6);
                 font-weight: 400;
+            }
+        }
+    }
+}
+
+//Contacts
+.two-cols{
+    display: flex;
+
+    .col{
+        flex-grow: 1;
+        width: 50%;
+        padding: 15px 0;
+
+        & + .col{
+            border-left: 1px solid #a9a092;
+        }
+    }
+}
+.contacts{
+    padding-top: 30px;
+    h3{
+        font-size: 48px;
+        margin: 0;
+    }
+    &__text{
+
+        p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+        a{
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    .schedule{
+        font-size: 14px;
+    }
+}
+.messangers{
+    padding: 0 20px;
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 10px;
+    }
+    &__wrap{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        li{
+            flex-grow: 1;
+
+            & + li{
+                padding-left: 20px;
+            }
+
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: underline;
+                text-transform: uppercase;
+                font-weight: 600;
+
+                &:hover {
+                    img{
+                        cursor: pointer;
+                        filter: grayscale(100%) brightness(73%) sepia(60%) hue-rotate(-50deg) saturate(600%) contrast(1.4);
+                    }
+                }
+            }
+            img{
+                width: 48px;
+                height: auto;
+                margin: 0 15px 0 0;
             }
         }
     }
