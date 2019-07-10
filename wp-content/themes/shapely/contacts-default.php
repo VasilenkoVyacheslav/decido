@@ -6,7 +6,7 @@ Template Name: Contacts
 get_header(); ?>
 
 <div class="contacts">
-    <h3>Контакты</h3>
+    <h3 class="page_title">Контакты</h3>
     <div class="two-cols">
         <div class="col contacts__text">
             <p>Мы ответим на любые ваши вопросы по телефону</p>

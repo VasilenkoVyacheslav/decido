@@ -4750,10 +4750,6 @@ ul.variations li .value .reset_variations {
   padding: 15px 0;
   min-height: 55vh;
 }
-.error-404 h1 {
-  color: #000;
-  font-size: 48px;
-}
 .error-404 .text-404 {
   max-width: 55%;
 }
@@ -4780,12 +4776,14 @@ ul.variations li .value .reset_variations {
 .two-cols .col + .col {
   border-left: 1px solid #a9a092;
 }
-.contacts {
-  padding-top: 30px;
-}
-.contacts h3 {
+.page_title {
   font-size: 48px;
   margin: 0;
+  color: #000;
+  margin: 0 0 20px;
+}
+.contacts {
+  padding-top: 30px;
 }
 .contacts__text p {
   font-size: 16px;
@@ -4838,5 +4836,49 @@ ul.variations li .value .reset_variations {
   width: 48px;
   height: auto;
   margin: 0 15px 0 0;
+}
+.hasSidebar {
+  display: -ms-flexbox;
+  display: flex;
+}
+.hasSidebar .sidebar {
+  min-width: 300px;
+  width: 300px;
+  padding: 0 20px 0 0;
+}
+.hasSidebar .sidebar .fixed-menu {
+  padding-top: 0;
+}
+.hasSidebar .main-content {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+.hasSidebar section {
+  padding: 0;
+  margin: 0 0 45px;
+}
+.hasSidebar section h4 {
+  line-height: 1.1;
+}
+.text16 {
+  font-size: 16px;
+}
+.exclamation-list li,
+.top-list li {
+  position: relative;
+  margin: 0 0 25px;
+}
+.exclamation-list li:before,
+.top-list li:before {
+  content: '';
+  display: inline-block;
+  vertical-align: sub;
+  width: 13px;
+  height: 15px;
+  background: url("../images/warning.svg") no-repeat 50%;
+  background-size: cover;
+}
+.top-list li:before {
+  background-image: url("../images/pointing-up.svg");
 }
 /*# sourceMappingURL=custom.css.map */
