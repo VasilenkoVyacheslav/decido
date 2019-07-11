@@ -4894,4 +4894,22 @@ ul.variations li .value .reset_variations {
 .top-list li:before {
   background-image: url("../images/pointing-up.svg");
 }
+.big-circle li {
+  display: -ms-flexbox;
+  display: flex;
+}
+.big-circle .circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #F3E4D0;
+  overflow: hidden;
+  margin: 0 22px 0 0;
+}
+.big-circle .data {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
 /*# sourceMappingURL=custom.css.map */

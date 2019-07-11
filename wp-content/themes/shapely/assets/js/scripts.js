@@ -22,30 +22,30 @@
     });
 jQuery(function($){
     $( document ).ready(function() {
+        if($('.hasSidebar').length > 0){
+            var $sticky = $('.fixed-menu');
+            var $stickyrStopper = $('.sticky-stopper');
+            if (!!$sticky.offset()) { // make sure ".sticky" element exists
 
-        var $sticky = $('.fixed-menu');
-        var $stickyrStopper = $('.sticky-stopper');
-        if (!!$sticky.offset()) { // make sure ".sticky" element exists
+                var generalSidebarHeight = $sticky.innerHeight();
+                var stickyTop = $sticky.offset().top;
+                var stickOffset = 0;
+                var stickyStopperPosition = $stickyrStopper.offset().top;
+                var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
+                var diff = stopPoint + stickOffset;
 
-            var generalSidebarHeight = $sticky.innerHeight();
-            var stickyTop = $sticky.offset().top;
-            var stickOffset = 0;
-            var stickyStopperPosition = $stickyrStopper.offset().top;
-            var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
-            var diff = stopPoint + stickOffset;
+                $(window).scroll(function(){ // scroll event
+                    var windowTop = $(window).scrollTop(); // returns number
 
-            $(window).scroll(function(){ // scroll event
-                var windowTop = $(window).scrollTop(); // returns number
-
-                if (stopPoint < windowTop) {
-                    $sticky.css({ position: 'absolute', top: diff });
-                } else if (stickyTop < windowTop+stickOffset) {
-                    $sticky.css({ position: 'fixed', top: stickOffset + 40 });
-                } else {
-                    $sticky.css({position: 'absolute', top: 'initial'});
-                }
-            });
-
+                    if (stopPoint < windowTop) {
+                        $sticky.css({ position: 'absolute', top: diff });
+                    } else if (stickyTop < windowTop+stickOffset) {
+                        $sticky.css({ position: 'fixed', top: stickOffset + 40 });
+                    } else {
+                        $sticky.css({position: 'absolute', top: 'initial'});
+                    }
+                });
+            }
         }
     });
 });
