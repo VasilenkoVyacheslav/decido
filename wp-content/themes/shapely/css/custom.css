@@ -16,7 +16,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px ;
+  height: 1px;
   background: #f1cbbe;
   width: 90%;
 }
@@ -547,7 +547,7 @@ a {
   outline: none !important;
 }
 ul.products li.product .button {
-  background: #E57C6B ;
+  background: #E57C6B;
   line-height: 50px;
   height: 50px;
   border-radius: 30px;
@@ -611,7 +611,7 @@ footer {
   z-index: 1;
   padding: 75px 0 25px;
   color: #000;
-  background: #f7efe3  ;
+  background: #f7efe3;
   background-size: 100% auto;
 }
 #top-footer .footer-inner {
@@ -997,7 +997,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px ;
+  height: 1px;
   background: #f1cbbe;
   width: 90%;
 }
@@ -1204,7 +1204,7 @@ button:hover {
 }
 #primary tr:nth-child(2n) td,
 #primary tr:nth-child(2n) th {
-  background: none ;
+  background: none;
 }
 #primary td {
   background: #fbf7f1;
@@ -1778,7 +1778,7 @@ button:hover {
   background: #e57c6b;
 }
 .slick-dots li button {
-  padding: 0 ;
+  padding: 0;
   font-size: 0;
   line-height: 0;
   display: block;
@@ -1858,7 +1858,7 @@ button:hover {
   padding: 0;
 }
 #info-box ul li {
-  padding: 10px 0 ;
+  padding: 10px 0;
   margin: 0;
 }
 #info-box ul li i {
@@ -1918,7 +1918,7 @@ button:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px ;
+  height: 1px;
   background: #f1cbbe;
   width: 90%;
 }
@@ -2889,14 +2889,14 @@ ul.variations li .value .reset_variations {
 }
 @media (min-width: 581px) and (max-width: 1025px) {
   #woocommerce_products-2 {
-    padding: 0  25px;
+    padding: 0 25px;
     margin-bottom: 55px !important;
   }
   #top-footer-block {
-    padding: 0  0 140px;
+    padding: 0 0 140px;
   }
   #top-footer-promo {
-    padding: 0 ;
+    padding: 0;
   }
   #top-footer-promo br {
     display: none;
@@ -2982,7 +2982,7 @@ ul.variations li .value .reset_variations {
 }
 @media (max-width: 580px) {
   #top-footer-block {
-    padding: 0  0 110px;
+    padding: 0 0 110px;
   }
   #top-footer-promo {
     padding-left: 20px;
@@ -3144,7 +3144,7 @@ ul.variations li .value .reset_variations {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 1px ;
+    height: 1px;
     background: #f1cbbe;
     width: 90%;
   }
@@ -3674,7 +3674,7 @@ ul.variations li .value .reset_variations {
 }
 @media (min-width: 767px) and (max-width: 1023px) {
   #categories-wr .row .term-item a .text-ww span {
-    font-size: 18px  !important;
+    font-size: 18px !important;
     line-height: 20px !important;
   }
 }
@@ -4075,7 +4075,7 @@ ul.variations li .value .reset_variations {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px ;
+  height: 1px;
   background: #fff;
   width: 90%;
 }
@@ -4184,7 +4184,7 @@ ul.variations li .value .reset_variations {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px ;
+  height: 1px;
   background: url('../images/active2.png') repeat-x 0 0;
   width: 90%;
 }
@@ -4777,7 +4777,7 @@ ul.variations li .value .reset_variations {
   border-left: 1px solid #a9a092;
 }
 .page_title {
-  font-size: 48px;
+  font-size: 44px;
   margin: 0;
   color: #000;
   margin: 0 0 20px;
@@ -4788,6 +4788,7 @@ ul.variations li .value .reset_variations {
 .contacts__text p {
   font-size: 16px;
   font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
 }
 .contacts__text a {
   font-size: 24px;
@@ -4840,14 +4841,23 @@ ul.variations li .value .reset_variations {
 .hasSidebar {
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
-.hasSidebar .sidebar {
-  min-width: 300px;
-  width: 300px;
-  padding: 0 20px 0 0;
+@media (max-width: 767px) {
+  .hasSidebar .sidebar {
+    display: none;
+  }
+}
+.hasSidebar .sidebar__inner {
+  position: relative;
 }
 .hasSidebar .sidebar .fixed-menu {
   padding-top: 0;
+}
+.hasSidebar .sidebar .fixed-menu.fixed {
+  position: fixed;
 }
 .hasSidebar .main-content {
   -ms-flex-positive: 1;
@@ -4859,6 +4869,9 @@ ul.variations li .value .reset_variations {
 }
 .hasSidebar section h4 {
   line-height: 1.1;
+}
+.product-menu-wrap {
+  height: 100%;
 }
 .text16 {
   font-size: 16px;

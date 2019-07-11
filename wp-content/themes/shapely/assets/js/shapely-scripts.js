@@ -10,7 +10,7 @@ var masonryUpdate = function(container) {
     setTimeout(function() {
        
         container.masonry( );
-        console.log('masonryUpdate');
+        // console.log('masonryUpdate');
     }, 350);
 }
 var masonryReload = function(container) {
@@ -122,15 +122,15 @@ $('.term-item').hover(function(){
 
     $('#product-menu-wr').find('.fixed-menu').each(function(){
     var $this = $(this);
-    var footer = $('footer').outerHeight()
+    var footer = $('footer').outerHeight();
     var $body = $(document).height();
     
   
     $(window).on('scroll', function(){
-   console.log('Scroll');  
+   // console.log('Scroll');
      var footer_pos = $('footer').offset().top;
-    console.log(footer_pos);
-      var menu = $this.offset().top;
+    // console.log(footer_pos);
+     var menu = $this.offset().top;
      var scroll = $(window).scrollTop();
     
     
@@ -140,7 +140,7 @@ $('.term-item').hover(function(){
     var $sizes = $('#sizes');
    
 
-     console.log(scroll+' '+$obzor.offset().top+' '+$obzor.height());
+     // console.log(scroll+' '+$obzor.offset().top+' '+$obzor.height());
      if(scroll<$obzor.offset().top+$obzor.height()-300){
        $('a.smooth-scroll[href="#obzor"]').addClass('active');
      }else{
@@ -897,7 +897,7 @@ $('#rooms-wrapp .widget-title').unbind().click(function(e){
           scrollTop: $(window.location.hash).offset().top-70
         }, 1000);
   }else{
-    console.log('sssss');
+    // console.log('sssss');
   }
   
       $('#gallery-imgs').masonry({
@@ -935,10 +935,10 @@ init();
 
    $('.type-product').find('.add-to-cart').click(function(e){
       e.preventDefault();
-      console.log('CLICK');
+      // console.log('CLICK');
           
   
-  console.log('PRODUCT');
+  // console.log('PRODUCT');
   $('.order-text').find('.order-var-item').html('');
   var $img= $('#main-image').find('img').clone();
   $('.order-img .img-wr').html($img);

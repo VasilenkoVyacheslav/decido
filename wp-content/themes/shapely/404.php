@@ -13,16 +13,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page_title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'shapely' ); ?></h1>
-				</header><!-- .page-header -->
-
 				<div class="page-content text-404">
-                    <h1>Страница не найдена</h1>
-<!--					<p>--><?php //esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'shapely' ); ?><!--</p>-->
-                    <?php
-					//	get_search_form();
-					?>
+                    <h3 class="page_title">Страница не найдена</h3>
                     <p>Похоже, что страницы, которую вы ищете, не существует.</p>
                     <p>Попробуйте перейти на <a href="<?php echo get_home_url(); ?>">Главную страницу</a> или воспользуйтесь поиском.</p>
 

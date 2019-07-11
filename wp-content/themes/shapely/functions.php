@@ -411,6 +411,8 @@ function shapely_scripts() {
   wp_enqueue_script('nice-select-js', get_template_directory_uri() . '/assets/js/jquery.nice-select.min.js', array('jquery'), '20160115', true);
   wp_enqueue_script('mfp-js', get_template_directory_uri() . '/assets/mfp/jquery.magnific-popup.min.js', array('jquery'), '20160115', true);
   wp_enqueue_script('jquery-mask', get_template_directory_uri() . '/assets/js/jquery.mask.js', array('jquery'), '20160115', true);
+  wp_enqueue_script('sticky-sidebar', get_template_directory_uri() . '/assets/js/sticky-sidebar.js', array('jquery'), '1', true);
+  wp_enqueue_script('scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), '1', true);
 
   wp_enqueue_script(
           'shapely-scripts', get_template_directory_uri() . '/assets/js/shapely-scripts.js', array(

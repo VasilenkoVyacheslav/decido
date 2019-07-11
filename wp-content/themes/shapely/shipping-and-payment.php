@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Return
+Template Name: Shipping
 */
 
 get_header(); ?>
@@ -8,8 +8,8 @@ get_header(); ?>
 <div class="return">
     <h3 class="page_title">Возврат</h3>
     <div class="hasSidebar row">
-        <aside class="sidebar col-sm-3">
-            <div class="product-menu-wrap sidebar__inner">
+        <aside class="sidebar d-none d-sm-block col-sm-3">
+            <div id="product-menu-wr" class="" >
                 <ul class="product-menu fixed-menu">
                     <li class="menu-item"><a href="#return" class="smooth-scroll active">Возврат</a></li>
                     <li class="menu-item"><a href="#start" class="smooth-scroll">Начало работы</a></li>
@@ -24,7 +24,7 @@ get_header(); ?>
                     Внимательно осмотрите изделие, обратите внимание на комплектацию, качество внешнего вида изделия, действие механизмов трансформации. запомните, что прием изделия без указанных недостатков, которые могут быть обнаружены при приобретении изделия (видимые недостатки), лишают вас права в дальнейшем ссылаться на них.
                 </p>
             </section>
-            <section id="start">
+            <section id="return">
                 <h4 class="title-30">Перед началом работы внимательно ознакомьтесь со следующей информацией:</h4>
                 <ul class="exclamation-list">
                     <li>
@@ -60,7 +60,6 @@ get_header(); ?>
             </section>
         </main>
     </div>
-    <div class="sticky-stopper"></div>
 </div>
 
 <?php
