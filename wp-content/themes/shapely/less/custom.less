@@ -5460,6 +5460,9 @@ ul.variations {
         p {
             font-size: 16px;
             margin: 0 0 2px;
+            @media (max-width: 767px) {
+                font-size: 14px;
+            }
 
             a {
                 text-transform: uppercase;
@@ -5491,6 +5494,10 @@ ul.variations {
     margin: 0;
     color: @black;
     margin: 0 0 20px;
+
+    @media (max-width: 767px) {
+        font-size: 30px;
+    }
 }
 
 //Contact page
@@ -5592,9 +5599,17 @@ ul.variations {
     section {
         padding: 0;
         margin: 0 0 45px;
+        @media (max-width: 767px) {
+            margin: 0 0 15px;
+        }
 
         h4 {
             line-height: 1.1;
+        }
+    }
+    .title-30{
+        @media (max-width: 767px) {
+            font-size: 18px;
         }
     }
 }
@@ -5603,6 +5618,23 @@ ul.variations {
 }
 .text16 {
     font-size: 16px;
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+}
+.title20{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
+}
+.title16{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
 }
 
 .exclamation-list,
@@ -5637,21 +5669,106 @@ ul.variations {
 
     li{
         display: flex;
+        margin: 0 0 40px;
+
+        @media (max-width: 767px) {
+            margin: 0 0 20px;
+        }
     }
     .circle{
         width: 140px;
+        min-width: 140px;
         height: 140px;
         border-radius: 50%;
-        background: #F3E4D0;
         overflow: hidden;
         margin: 0 22px 0 0;
+        @media (max-width: 767px) {
+            width: 92px;
+            min-width: 92px;
+            height: 92px;
+            margin: 0 12px 0 0;
+        }
+
+        img{
+            width: auto;
+            height: 100%;
+        }
     }
     .data{
         display: flex;
         align-items: center;
+        margin-bottom: 5px;
+        flex-wrap: wrap;
 
         li{
-
+            margin: 0 20px 5px 0;
+            &:last-child{
+                margin-right: 0;
+            }
         }
+        span{
+
+            @media (max-width: 767px) {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            &:before{
+                content: '';
+                margin: 0 3px 0 0;
+                display: inline-block;
+                vertical-align: text-top;
+            }
+            &.time-ico{
+                &:before{
+                    content: url("../images/timework.svg");
+                }
+            }
+            &.price-ico{
+                &:before{
+                    content: url("../images/price.svg");
+                }
+            }
+            &.location-ico{
+                &:before{
+                    content: url("../images/LOCATION.svg");
+                }
+            }
+        }
+    }
+}
+.small-circle{
+
+    li{
+        display: flex;
+        margin: 0 0 20px;
+        @media (max-width: 767px) {
+            margin: 0 0 10px;
+        }
+
+        .circle{
+            width: 45px;
+            min-width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 10px 0 0;
+
+            @media (max-width: 767px) {
+                width: 43px;
+                min-width: 43px;
+                height: 43px;
+                margin: 0 12px 0 0;
+            }
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+.payment-process{
+    margin: 0 0 12px;
+
+    p{
+        margin: 0;
     }
 }

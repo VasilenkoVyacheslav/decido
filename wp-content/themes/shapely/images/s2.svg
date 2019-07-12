@@ -1,0 +1,40 @@
+<svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="85" cy="85" r="85" fill="#F3E4D0"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="170" height="170">
+<circle cx="85" cy="85" r="85" fill="#F3E4D0"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M144.554 129H233.554L105.5 137.942H25L144.554 129Z" fill="#DECDB4"/>
+<ellipse cx="111.435" cy="123.004" rx="7.27817" ry="13.9965" fill="#DECDB4"/>
+<ellipse cx="119.833" cy="123.004" rx="7.27817" ry="13.9965" fill="#DECDB4"/>
+<rect x="111.435" y="109.007" width="8.95775" height="27.993" fill="#DECDB4"/>
+<ellipse cx="119.945" cy="123" rx="4" ry="8" fill="#F3E4D0"/>
+<ellipse cx="53.7692" cy="123.004" rx="7.27817" ry="13.9965" fill="#DECDB4"/>
+<ellipse cx="62.167" cy="123.004" rx="7.27817" ry="13.9965" fill="#DECDB4"/>
+<rect x="53.7691" y="109.007" width="8.95775" height="27.993" fill="#DECDB4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M176.054 45H91.0544V128L110.056 126.1C110.16 114.963 114.597 106 120.054 106C125.182 106 129.409 113.913 129.987 124.107L176.054 119.5V45Z" fill="#F8EFE4"/>
+<path d="M126.054 45H63.0544L59.5144 46.416C58.6 46.7817 57.9234 47.5729 57.704 48.5329L50.6502 79.3935C50.2779 81.0221 49.1169 82.3571 47.5558 82.9518L32.2744 88.7733C30.3356 89.5119 29.0544 91.3711 29.0544 93.4458V123L33.0544 128H96.0544L92.0544 123V93.4458C92.0544 91.3711 93.3356 89.5119 95.2744 88.7733L110.556 82.9518C112.117 82.3571 113.278 81.0221 113.65 79.3935L120.704 48.533C120.923 47.5729 121.6 46.7817 122.514 46.416L126.054 45Z" fill="#DECDB4"/>
+<rect x="39.0544" y="94" width="41" height="24" rx="3" fill="#F3E4D0"/>
+<rect x="41.0622" y="96.167" width="35.7208" height="8.68389" rx="2" fill="#F8EFE4"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="41" y="96" width="36" height="9">
+<rect x="41.0622" y="96.167" width="35.7208" height="8.68389" rx="2" fill="#F8EFE4"/>
+</mask>
+<g mask="url(#mask1)">
+<rect x="43.0544" y="95" width="35.7208" height="8.68389" rx="2" fill="#DECDB4"/>
+</g>
+<rect x="41.0622" y="106.825" width="35.7208" height="8.68389" rx="2" fill="#F8EFE4"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="41" y="106" width="36" height="10">
+<rect x="41.0622" y="106.825" width="35.7208" height="8.68389" rx="2" fill="#F8EFE4"/>
+</mask>
+<g mask="url(#mask2)">
+<rect x="43.0544" y="105.657" width="35.7208" height="8.68389" rx="2" fill="#DECDB4"/>
+</g>
+<ellipse cx="34.4658" cy="113.285" rx="2.41139" ry="3.80967" fill="#FFFFFD"/>
+<rect x="31.0544" y="94" width="6" height="13" rx="2" fill="#FFFFFD"/>
+<ellipse cx="85.4658" cy="113.285" rx="2.41139" ry="3.80967" fill="#FFFFFD"/>
+<rect x="82.0544" y="94" width="6" height="13" rx="2" fill="#FFFFFD"/>
+<path d="M59.9933 53.7844C60.3228 52.4431 61.5255 51.5 62.9067 51.5H111.857C113.763 51.5 115.185 53.2534 114.793 55.118L110.056 77.618C109.764 79.0063 108.539 80 107.12 80H57.3804C55.4338 80 54.0027 78.1748 54.467 76.2844L59.9933 53.7844Z" fill="#F8EFE4"/>
+<path d="M124.036 52.588C124.231 51.6625 125.047 51 125.993 51H135.979C137.113 51 138.02 51.9412 137.978 53.074L137.115 76.3552C137.08 77.3107 136.373 78.1076 135.429 78.2567L120.921 80.5473C119.538 80.7658 118.364 79.5307 118.652 78.1598L124.036 52.588Z" fill="#FFFFFD"/>
+<ellipse cx="135.554" cy="85.5" rx="2.5" ry="1.5" transform="rotate(-90 135.554 85.5)" fill="#DECDB4"/>
+</g>
+</svg>

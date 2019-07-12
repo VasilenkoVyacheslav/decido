@@ -4757,6 +4757,11 @@ ul.variations li .value .reset_variations {
   font-size: 16px;
   margin: 0 0 2px;
 }
+@media (max-width: 767px) {
+  .error-404 .text-404 p {
+    font-size: 14px;
+  }
+}
 .error-404 .text-404 p a {
   text-transform: uppercase;
   text-decoration: underline;
@@ -4781,6 +4786,11 @@ ul.variations li .value .reset_variations {
   margin: 0;
   color: #000;
   margin: 0 0 20px;
+}
+@media (max-width: 767px) {
+  .page_title {
+    font-size: 30px;
+  }
 }
 .contacts {
   padding-top: 30px;
@@ -4867,14 +4877,45 @@ ul.variations li .value .reset_variations {
   padding: 0;
   margin: 0 0 45px;
 }
+@media (max-width: 767px) {
+  .hasSidebar section {
+    margin: 0 0 15px;
+  }
+}
 .hasSidebar section h4 {
   line-height: 1.1;
+}
+@media (max-width: 767px) {
+  .hasSidebar .title-30 {
+    font-size: 18px;
+  }
 }
 .product-menu-wrap {
   height: 100%;
 }
 .text16 {
   font-size: 16px;
+}
+@media (max-width: 767px) {
+  .text16 {
+    font-size: 14px;
+  }
+}
+.title20 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .title20 {
+    font-size: 18px;
+  }
+}
+.title16 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
 }
 .exclamation-list li,
 .top-list li {
@@ -4897,19 +4938,102 @@ ul.variations li .value .reset_variations {
 .big-circle li {
   display: -ms-flexbox;
   display: flex;
+  margin: 0 0 40px;
+}
+@media (max-width: 767px) {
+  .big-circle li {
+    margin: 0 0 20px;
+  }
 }
 .big-circle .circle {
   width: 140px;
+  min-width: 140px;
   height: 140px;
   border-radius: 50%;
-  background: #F3E4D0;
   overflow: hidden;
   margin: 0 22px 0 0;
+}
+@media (max-width: 767px) {
+  .big-circle .circle {
+    width: 92px;
+    min-width: 92px;
+    height: 92px;
+    margin: 0 12px 0 0;
+  }
+}
+.big-circle .circle img {
+  width: auto;
+  height: 100%;
 }
 .big-circle .data {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  margin-bottom: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.big-circle .data li {
+  margin: 0 20px 5px 0;
+}
+.big-circle .data li:last-child {
+  margin-right: 0;
+}
+@media (max-width: 767px) {
+  .big-circle .data span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.big-circle .data span:before {
+  content: '';
+  margin: 0 3px 0 0;
+  display: inline-block;
+  vertical-align: text-top;
+}
+.big-circle .data span.time-ico:before {
+  content: url("../images/timework.svg");
+}
+.big-circle .data span.price-ico:before {
+  content: url("../images/price.svg");
+}
+.big-circle .data span.location-ico:before {
+  content: url("../images/LOCATION.svg");
+}
+.small-circle li {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 20px;
+}
+@media (max-width: 767px) {
+  .small-circle li {
+    margin: 0 0 10px;
+  }
+}
+.small-circle li .circle {
+  width: 45px;
+  min-width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 10px 0 0;
+}
+@media (max-width: 767px) {
+  .small-circle li .circle {
+    width: 43px;
+    min-width: 43px;
+    height: 43px;
+    margin: 0 12px 0 0;
+  }
+}
+.small-circle li p {
+  margin: 0;
+}
+.payment-process {
+  margin: 0 0 12px;
+}
+.payment-process p {
+  margin: 0;
 }
 /*# sourceMappingURL=custom.css.map */
