@@ -5586,8 +5586,8 @@ ul.variations {
         .fixed-menu {
             padding-top: 0;
 
-            &.fixed {
-                position: fixed;
+            &.fix{
+                width: 22%;
             }
         }
     }
@@ -5643,6 +5643,7 @@ ul.variations {
     li {
         position: relative;
         margin: 0 0 25px;
+        list-style: none;
 
         &:before {
             content: '';
@@ -5770,5 +5771,71 @@ ul.variations {
 
     p{
         margin: 0;
+    }
+}
+
+//Warranty page
+
+.warranty{
+
+    section{
+        &:first-child{
+            .title-30{
+                margin: 0 0 10px;
+            }
+        }
+    }
+
+    .big-circle{
+        margin-top: 30px;
+
+        li{
+            flex-direction: column;
+            @media (max-width: 767px){
+                flex-direction: row;
+                align-items: center;
+            }
+            .circle{
+                width: 194px;
+                height: 194px;
+                min-width: 194px;
+                margin: 0 0 25px;
+
+                @media (max-width: 1023px){
+                    width: 154px;
+                    height: 154px;
+                    min-width: 154px;
+                }
+                @media (max-width: 767px){
+                    width: 94px;
+                    height: 94px;
+                    min-width: 94px;
+                    margin: 0 15px 0 0;
+                }
+            }
+        }
+        .warranty-method{
+            p{
+                max-width: 82%;
+                margin: 0;
+                @media (max-width: 767px){
+                    max-width: none;
+                }
+                a{
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    color: rgba(0,0,0,.6);
+                }
+            }
+        }
+    }
+    &-process{
+        p{
+            margin-bottom: 20px;
+
+            &:last-child{
+                margin: 0;
+            }
+        }
     }
 }

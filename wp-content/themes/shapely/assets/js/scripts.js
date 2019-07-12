@@ -41,8 +41,10 @@ jQuery(function($){
                         $sticky.css({ position: 'absolute', top: diff });
                     } else if (stickyTop < windowTop+stickOffset) {
                         $sticky.css({ position: 'fixed', top: stickOffset + 40 });
+                        $sticky.addClass('fix');
                     } else {
                         $sticky.css({position: 'absolute', top: 'initial'});
+                        $sticky.removeClass('fix');
                     }
                 });
             }
