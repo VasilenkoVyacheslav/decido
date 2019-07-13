@@ -5364,14 +5364,12 @@ ul.variations {
 #misha_loadmore {
 
     clear: both;
-    display: inline-block;
     cursor: pointer;
     margin: 0 auto 50px;;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     max-width: 460px;
     width: 90%;
-    text-align: center;
     background: #F2E4D1;
     color: #E57C6B;
     font-size: 14px;
@@ -5507,9 +5505,9 @@ ul.variations {
 
 .page_title {
     font-size: 44px;
-    margin: 0;
     color: @black;
-    margin: 0 0 20px;
+    margin: 20px 0;
+    line-height: 1;
 
     @media (max-width: 1024px) {
         font-size: 34px;
@@ -5535,6 +5533,8 @@ ul.variations {
         a {
             font-size: 24px;
             font-weight: 400;
+            display: inline-block;
+            white-space: nowrap;
         }
     }
 
@@ -5857,5 +5857,92 @@ ul.variations {
                 margin: 0;
             }
         }
+    }
+}
+
+//Search page
+.search-page{
+
+    &-text{
+        p{
+            margin: 0 0 50px;
+        }
+    }
+}
+.search-two-cols{
+
+    .title-30{
+        font-weight: 700;
+        line-height: 34px;
+        margin: 0 0 25px;
+        color: #000;
+    }
+    .col{
+
+        @media(max-width:768px){
+            width: 100%!important;
+        }
+    }
+    .search-categories{
+        border-right: 1px solid rgba(0,0,0,.15);
+
+        @media(max-width:768px){
+            border-right: none;
+            border-bottom: 1px solid rgba(0,0,0,.15);
+            padding-bottom: 50px;
+        }
+    }
+    .cats{
+        list-style: none;
+        li{
+            margin: 0 0 15px;
+            &:last-of-type{
+                margin: 0;
+            }
+            a{
+                font-size: 16px;
+                font-weight: 400;
+                @media(max-width:480px){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .contacts{
+        padding: 0 5px 0 15%;
+        @media (max-width: 1024px){
+            padding: 0 5px 0 8%;
+        }
+        @media(max-width:768px){
+            padding: 50px 5px;
+        }
+
+        a{
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+        .schedule{
+            margin: 0 0 13px;
+        }
+    }
+}
+.white-button{
+    pointer-events: visible;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 50px;
+    color: #000;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700!important;
+    font-size: 12px!important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        background: #ffffff;
     }
 }
