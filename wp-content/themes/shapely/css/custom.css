@@ -230,6 +230,7 @@
 }
 * {
   box-sizing: border-box;
+  outline: none;
 }
 html {
   -ms-touch-action: none;
@@ -3716,10 +3717,12 @@ ul.variations li .value .reset_variations {
 #categories-wr .row .term-item h3 {
   position: relative;
   z-index: 10;
+  max-width: 95%;
 }
 #categories-wr .row .term-item span {
   position: relative;
   z-index: 10;
+  max-width: 95%;
 }
 #categories-wr .row .term-item img {
   position: relative;
@@ -5158,7 +5161,7 @@ ul.variations li .value .reset_variations {
 .search-two-cols .cats li {
   margin: 0 0 15px;
 }
-.search-two-cols .cats li:last-child {
+.search-two-cols .cats li:last-of-type {
   margin: 0;
 }
 .search-two-cols .cats li a {
