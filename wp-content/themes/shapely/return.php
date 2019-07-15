@@ -4,9 +4,13 @@ Template Name: Return
 */
 
 get_header(); ?>
-
+<?php
+    $return_group = get_field('return_group');
+    $start_work = get_field('start_work');
+    $dopusheniya = get_field('dopusheniya');
+?>
 <div class="return">
-    <h3 class="page_title">Возврат</h3>
+    <h3 class="page_title"><?php the_title(); ?></h3>
     <div class="hasSidebar row">
         <aside class="sidebar col-sm-3">
             <div class="product-menu-wrap sidebar__inner">
@@ -18,50 +22,80 @@ get_header(); ?>
             </div>
         </aside>
         <main class="main-content col-12 col-sm-9">
-            <section id="return">
-                <h4 class="title-30">Возврат только в случае технической неисправности </h4>
-                <p class="text16">
-                    Внимательно осмотрите изделие, обратите внимание на комплектацию, качество внешнего вида изделия, действие механизмов трансформации. запомните, что прием изделия без указанных недостатков, которые могут быть обнаружены при приобретении изделия (видимые недостатки), лишают вас права в дальнейшем ссылаться на них.
-                </p>
-            </section>
-            <section id="start">
-                <h4 class="title-30">Перед началом работы внимательно ознакомьтесь со следующей информацией:</h4>
-                <ul class="exclamation-list">
-                    <li>
-                        Новое изделие может иметь характерный запах материалов, используемых при изготовлении мебели, который исчезает через некоторое время;
-                    </li>
-                    <li>
-                        Во время транспортировки на мебели могут появиться складки. Для того, чтобы мебель приобрела правильную форму, достаточно, чтобы она постояла при комнатной температуре. Форма приставных подушек восстановится, если их сбить руками;
-                    </li>
-                    <li>
-                        Мебельная обивка при длительной эксплуатации имеет свойство растягиваться, приобретать более интенсивный блеск. На мебели могут проявиться небольшие локальные места постоянного сидения, появиться складки, проявиться мягкость наполнителей, что не является дефектом мебели при изготовлении;
-                    </li>
-                    <li>
-                        В отделочных деревянных элементах возможна незначительная разница в оттенках через такую особенность древесины, как анизотропность (разнородность свойств в направлении вдоль или поперек волокон);
-                    </li>
-                    <li>
-                        Отделочные материалы (ткань, кожа, искусственная кожа) могут отличаться оттенками на разных частях изделия из-за особенностей процесса производства, цветопередачи под различными источниками света, специфические свойства ворса и тому подобное.
-                    </li>
-                </ul>
-            </section>
+
+            <?php if($return_group){ ?>
+                <section id="return">
+                    <h4 class="title-30"><?php echo $return_group['title']; ?></h4>
+                    <p class="text16">
+                        <?php echo $return_group['description']; ?>
+                    </p>
+                </section>
+            <?php } ?>
+
+            <?php if($start_work){ ?>
+                <section id="start">
+                    <h4 class="title-30"><?php echo $start_work['title']; ?></h4>
+                    <ul class="exclamation-list">
+                       <?php foreach ($start_work['informations'] as $information){ ?>
+                            <li>
+                                <?php echo $information['inf']; ?>
+                            </li>
+                       <?php } ?>
+                    </ul>
+                </section>
+            <?php } ?>
+
+            <?php if($dopusheniya){ ?>
             <section id="allowance">
-                <h4 class="title-30">Допускаются и не являются недостатками:</h4>
+                <h4 class="title-30"><?php echo $dopusheniya['title']; ?></h4>
                 <ul class="top-list">
-                    <li>
-                        Складки на обивочной ткани, возникающие вследствие снятия нагрузки и исчезающие после легкого разглаживания их рукой;
-                    </li>
-                    <li>
-                        Складки на обивочной ткани, обусловленные художественным решением изделия;
-                    </li>
-                    <li>
-                        Незначительная разнотонность обивочной ткани и несимметричность рисунка и декора;
-                    </li>
+                    <?php foreach ($dopusheniya['informations'] as $dop){ ?>
+                        <li>
+                            <?php echo $dop['inf']; ?>
+                        </li>
+                    <?php } ?>
                 </ul>
             </section>
+            <?php } ?>
         </main>
     </div>
     <div class="sticky-stopper"></div>
 </div>
 
-<?php
-get_footer();
+</div><!-- #main -->
+</section><!-- section -->
+
+<div class="footer-callout">
+    <?php shapely_footer_callout(); ?>
+</div>
+
+
+<footer id="colophon" class="site-footer footer bg-dark" role="contentinfo">
+
+    <?php  get_template_part('template-parts/shipping', 'footer'); ?>
+
+    <div id="bottom-footer">
+        <div class="container footer-inner">
+            <div  class="row">
+                <div class="col-sm-6 col-sm-6 col-12 col-xs-6 col-mini-12 ">
+
+                    <?php echo wp_kses_post( get_theme_mod( 'shapely_footer_copyright' ) ); ?>
+
+                </div><!-- .site-info -->
+                <div class="col-sm-6 col-sm-6 col-12 col-xs-6 col-mini-12 text-right">
+                    Дизайн и проектирование <img src="/wp-content/themes/shapely/images/Promodo-logo.png" alt="promodo" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="btn btn-sm fade-half back-to-top inner-link" href="#top"><i class="fa fa-angle-up"></i></a>
+</footer><!-- #colophon -->
+</div>
+</div><!-- #page inner -->
+</div><!-- #page -->
+</div>
+<?php wp_footer(); ?>
+
+</body>
+</html>
