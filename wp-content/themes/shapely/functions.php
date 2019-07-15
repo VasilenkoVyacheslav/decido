@@ -730,3 +730,13 @@ function custom_posts_per_page( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'custom_posts_per_page' );
+
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page(array(
+        'page_title' 	=> 'Настройка страницы поиска',
+        'menu_slug' 	=> 'serch-settings',
+    ));
+
+
+}
