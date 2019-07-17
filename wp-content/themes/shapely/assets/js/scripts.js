@@ -50,4 +50,18 @@ jQuery(function($){
             }
         }
     });
+
+    // Show popup
+    $('.js-popup').on('click', function () {
+        $('#popup-wrapper').fadeIn();
+    });
+    $('.close-popup').on('click', function () {
+        $(this).closest('#popup-wrapper').fadeOut();
+    });
+    $(document).mouseup(function (e){
+        var block = $(".popup-cooperation");
+        if (!block.is(e.target) && block.has(e.target).length === 0) {
+            $('#popup-wrapper').fadeOut();
+        }
+    });
 });

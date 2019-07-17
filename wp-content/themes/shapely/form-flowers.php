@@ -26,16 +26,15 @@ get_header(); ?>
         </div>
         <p class="text16">Заполните форму обратной связи ниже и мы вам перезвоним</p>
         <form class="row" id="callback">
-            <div class="col-xs-5 col-sm-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <input type="text" name="name" placeholder="Ваше имя *" required="required">
             </div>
-            <div class="col-xs-5 col-sm-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <input type="tel" name="phone" placeholder="Номер телефона *" required="required">
             </div>
-            <div class="col-xs-5 col-sm-3"><button type="submit" class="button" name="send_callback" value="связаться со мной">связаться со мной</div>
-
-
-
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <button type="submit" class="button" name="send_callback" value="связаться со мной">связаться со мной</button>
+            </div>
         </form>
     </div>
 </div>

@@ -13,7 +13,7 @@ get_header(); ?>
                 <p class="text16">
                     Мы заинтересованы в долгосрочном и надежном партнерстве с рестораторами, девелоперами и дизайнерами
                 </p>
-                <button>Оставить заявку</button>
+                <button class="js-popup button">Оставить заявку</button>
             </div>
             <div class="term-item term-item-2 col-md-3 col-lg-3 col-sm-4 col-xs-6  col-6 col-xs-offset-6  col-md-offset-1 col-lg-offset-1  col-sm-offset-0  small-title">
                 <a href="http://decido/zavedenie/dlya-detskih-kafe/">

@@ -40,6 +40,32 @@
 
 	<a class="btn btn-sm fade-half back-to-top inner-link" href="#top"><i class="fa fa-angle-up"></i></a>
 </footer><!-- #colophon -->
+
+<!--POPUP-->
+<div id="popup-wrapper">
+    <div class="popup-inner">
+        <div class="popup-cooperation popup">
+            <span class="close-popup"></span>
+            <div class="title-30">Заявка на сотрудничество</div>
+            <p class="text16">Отправьте нам свое предложение и наш менеджер свяжется с вами в ближайшее время для уточнения деталей</p>
+            <form name="popup-cooperation">
+                <div>
+                    <input type="text" name="name" placeholder="Ваше имя*">
+                </div>
+                <div>
+                    <input type="tel" name="phone" placeholder="Номер телефона *" required="required">
+                </div>
+                <div>
+                    <textarea name="comment"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="button" name="send_callback">оставить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 </div>
 </div><!-- #page inner -->
 </div><!-- #page -->
