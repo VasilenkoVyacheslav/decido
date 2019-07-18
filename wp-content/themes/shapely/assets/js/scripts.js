@@ -39,6 +39,7 @@ jQuery(function($){
 
                     if (stopPoint < windowTop) {
                         $sticky.css({ position: 'absolute', top: diff });
+                        $sticky.removeClass('fix');
                     } else if (stickyTop < windowTop+stickOffset) {
                         $sticky.css({ position: 'fixed', top: stickOffset + 40 });
                         $sticky.addClass('fix');

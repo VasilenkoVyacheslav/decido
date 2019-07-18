@@ -6041,21 +6041,76 @@ button[type="submit"]{
         width: 100%;
         height: 60px;
         border-radius: 30px!important;
+        margin-bottom: 0;
     }
-}
-input,
-input:focus,
-input:hover{
-    background: none;
-    width: 100%;
-    height: 60px;
-    padding: 8px 20px;
-    color: #fff;
-    border: 1px solid rgba(255,255,255,.15);
+
+    input,
+    input:focus,
+    input:hover{
+        background: none;
+        width: 100%;
+        height: 60px;
+        padding: 8px 20px;
+        color: #fff;
+        border: 1px solid rgba(255,255,255,.15);
 
 
-    @media (max-width: 460px){
-        width: 100% !important;
+        @media (max-width: 460px){
+            width: 100% !important;
+        }
+    }
+    &.red {
+        background: #e77c68 url("../images/form-red.png") no-repeat 100% 31%;
+        padding: 34px 39px 15px;
+
+        @media (max-width: 800px){
+            padding-bottom: 16px;
+            background-position: 720% 35%;
+        }
+        @media (max-width: 480px){
+            padding: 24px 10px 16px;
+        }
+        @media (max-width: 320px){
+            background-position: 22% -500%;
+        }
+
+        input,
+        input:focus,
+        input:hover {
+            border: 1px solid rgba(255, 255, 255, .3);
+        }
+        input{
+            &::-webkit-input-placeholder {
+                color: rgba(255,255,255,.8);
+            }
+            &::-moz-placeholder {
+                color: rgba(255,255,255,.8);
+            }
+            &:-ms-input-placeholder {
+                color: rgba(255,255,255,.8);
+            }
+            &:-moz-placeholder {
+                color: rgba(255,255,255,.8);
+            }
+        }
+        .title-30{
+            color: #fff;
+            @media (max-width: 480px){
+                font-size: 18px;
+            }
+        }
+        p{
+            color: rgba(255,255,255,.7);
+        }
+        .button{
+            background: #fff;
+            color: #000;
+            transition: .2s;
+
+            &:hover{
+                background: rgba(255,255,255,.97);;
+            }
+        }
     }
 }
 
@@ -6133,5 +6188,125 @@ input:hover{
 
     @media (max-width:480px){
         padding: 73px 30px 60px;
+    }
+}
+.text-flowers {
+    position: relative;
+    padding: 10px 0 75px;
+    @media(max-width: 480px){
+        padding-bottom: 150px;
+    }
+    @media(max-width: 320px){
+        padding-bottom: 100px;
+    }
+
+    .container{
+        z-index: 20;
+    }
+    .flowers-bg{
+        position: absolute;
+        right: -1px;
+        bottom: -12px;
+        z-index: 5;
+
+        @media(max-width: 1300px){
+            right: -100px;
+        }
+        @media(max-width: 991px){
+            right: -200px;
+            max-height: 100%;
+        }
+        @media(max-width: 560px){
+            right: -140px;
+            max-height: 100%;
+            width: 100%;
+        }
+        @media(max-width: 480px){
+            right: 0;
+        }
+    }
+    .flower-text{
+        @media(max-width: 480px){
+            width: 100%;
+        }
+    }
+    .title-30{
+        @media(max-width: 480px){
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+}
+.to-developers{
+
+}
+.benefits{
+    margin-bottom: 87px;
+    @media(max-width: 800px){
+        margin-bottom: 61px;
+    }
+    @media(max-width: 480px){
+        margin-bottom: 40px;
+    }
+    &-item{
+        display: flex;
+        align-items: center;
+        @media(max-width: 767px){
+            margin-bottom: 10px;
+        }
+
+        img{
+            width: 192px;
+            height: 192px;
+            border-radius: 50%;
+            @media(max-width: 800px){
+                height: 106px;
+                width: 106px;
+            }
+        }
+        div{
+            max-width: 210px;
+            color: #000;
+            font-size: 20px;
+            line-height: 24px;
+            position: relative;
+            left: -64px;
+            @media(max-width: 800px){
+                left: -53px;
+            }
+        }
+
+    }
+}
+.bg-box {
+
+    .text-top{
+        margin: 0 0 68px;
+    }
+    .title20{
+        margin-bottom: 15px;
+    }
+    .small-circle{
+        margin-bottom: 63px;
+        @media(max-width: 800px){
+            margin-bottom: 32px;
+        }
+        li{
+            align-items: center;
+            margin-bottom: 12px;
+        }
+    }
+    @media(max-width: 800px){
+        margin-bottom: 50px;
+    }
+    @media(max-width: 480px){
+        margin-bottom: 30px;
+    }
+}
+.how-we-works{
+    margin-bottom: 30px;
+
+    .title-30{
+        margin-bottom: 10px;
     }
 }

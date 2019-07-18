@@ -17,7 +17,7 @@ get_header(); ?>
             </div>
             <div class="term-item term-item-2 col-md-3 col-lg-3 col-sm-4 col-xs-6  col-6 col-xs-offset-6  col-md-offset-1 col-lg-offset-1  col-sm-offset-0  small-title">
                 <a href="http://decido/zavedenie/dlya-detskih-kafe/">
-                    <img src="http://decido/wp-content/uploads/2018/11/Kids-cafe-beige.svg" alt="Рестораторам">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/rest.svg" alt="Рестораторам">
                     <div class="text-ww">
                         <h3>Рестораторам</h3>
                         <span>Получите лучший сервис, а так же наиболее выгодные цены на рынке</span>
@@ -28,7 +28,7 @@ get_header(); ?>
         <div class="row">
             <div class="term-item term-item-3 col-md-4 col-lg-4 col-sm-5 col-xs-6 col-6 col-md-offset-1 col-lg-offset-1  col-sm-offset-0 midle-title">
                 <a href="http://decido/zavedenie/dlya-barov/">
-                    <img src="http://decido/wp-content/uploads/2018/11/Bar-beige.svg" alt="Для баров">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/devs.svg" alt="Девелоперам">
                     <div class="text-ww">
                         <h3>Девелоперам</h3>
                         <span>Специальные цены и лояльные условия оплаты для девелоперов</span>
@@ -37,7 +37,7 @@ get_header(); ?>
             </div>
             <div class="term-item term-item-4 col-md-3 col-lg-3 col-sm-4 col-xs-6  col-6 col-xs-offset-6 col-md-offset-1 col-lg-offset-1  col-sm-offset-1  small-title">
                 <a href="http://decido/zavedenie/mebel-dlya-restoranov/">
-                    <img src="http://decido/wp-content/uploads/2018/11/Restaurants-beige.svg" alt="Для ресторанов">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/arch.svg" alt="Архитекторам">
                     <div class="text-ww">
                         <h3>Архитекторам</h3>
                         <span>Лучшие условия сотрудничества и все необходимые материалы при работе над коммерческими проектами</span>

@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="text-flowers">
     <div class="container">
         <div class="row">
-            <div class="col-10 col-sm-6">
+            <div class="flower-text col-xs-9 col-md-6">
                 <h4 class="title-30">Давайте развивать индустрию гостеепреимства вместе</h4>
                 <p class="text16">
                     Мы строим систему сервиса для наших клиентов и партнеров.
@@ -18,6 +18,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <img class="flowers-bg" src="<?php echo get_template_directory_uri() ?>/images/flowers.svg" alt="flowers bg">
 </div>
 <div class="callback-form">
     <div class="container">

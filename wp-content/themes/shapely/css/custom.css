@@ -5302,10 +5302,11 @@ button[type="submit"]:hover {
   width: 100%;
   height: 60px;
   border-radius: 30px!important;
+  margin-bottom: 0;
 }
-input,
-input:focus,
-input:hover {
+.callback-form input,
+.callback-form input:focus,
+.callback-form input:hover {
   background: none;
   width: 100%;
   height: 60px;
@@ -5314,11 +5315,67 @@ input:hover {
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 @media (max-width: 460px) {
-  input,
-  input:focus,
-  input:hover {
+  .callback-form input,
+  .callback-form input:focus,
+  .callback-form input:hover {
     width: 100% !important;
   }
+}
+.callback-form.red {
+  background: #e77c68 url("../images/form-red.png") no-repeat 100% 31%;
+  padding: 34px 39px 15px;
+}
+@media (max-width: 800px) {
+  .callback-form.red {
+    padding-bottom: 16px;
+    background-position: 720% 35%;
+  }
+}
+@media (max-width: 480px) {
+  .callback-form.red {
+    padding: 24px 10px 16px;
+  }
+}
+@media (max-width: 320px) {
+  .callback-form.red {
+    background-position: 22% -500%;
+  }
+}
+.callback-form.red input,
+.callback-form.red input:focus,
+.callback-form.red input:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.callback-form.red input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.callback-form.red input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.callback-form.red input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.callback-form.red input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.callback-form.red .title-30 {
+  color: #fff;
+}
+@media (max-width: 480px) {
+  .callback-form.red .title-30 {
+    font-size: 18px;
+  }
+}
+.callback-form.red p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.callback-form.red .button {
+  background: #fff;
+  color: #000;
+  transition: .2s;
+}
+.callback-form.red .button:hover {
+  background: rgba(255, 255, 255, 0.97);
 }
 #popup-wrapper {
   display: none;
@@ -5399,5 +5456,145 @@ input:hover {
   .popup-cooperation {
     padding: 73px 30px 60px;
   }
+}
+.text-flowers {
+  position: relative;
+  padding: 10px 0 75px;
+}
+@media (max-width: 480px) {
+  .text-flowers {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .text-flowers {
+    padding-bottom: 100px;
+  }
+}
+.text-flowers .container {
+  z-index: 20;
+}
+.text-flowers .flowers-bg {
+  position: absolute;
+  right: -1px;
+  bottom: -12px;
+  z-index: 5;
+}
+@media (max-width: 1300px) {
+  .text-flowers .flowers-bg {
+    right: -100px;
+  }
+}
+@media (max-width: 991px) {
+  .text-flowers .flowers-bg {
+    right: -200px;
+    max-height: 100%;
+  }
+}
+@media (max-width: 560px) {
+  .text-flowers .flowers-bg {
+    right: -140px;
+    max-height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .text-flowers .flowers-bg {
+    right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .text-flowers .flower-text {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .text-flowers .title-30 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+.benefits {
+  margin-bottom: 87px;
+}
+@media (max-width: 800px) {
+  .benefits {
+    margin-bottom: 61px;
+  }
+}
+@media (max-width: 480px) {
+  .benefits {
+    margin-bottom: 40px;
+  }
+}
+.benefits-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+@media (max-width: 767px) {
+  .benefits-item {
+    margin-bottom: 10px;
+  }
+}
+.benefits-item img {
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+}
+@media (max-width: 800px) {
+  .benefits-item img {
+    height: 106px;
+    width: 106px;
+  }
+}
+.benefits-item div {
+  max-width: 210px;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+  left: -64px;
+}
+@media (max-width: 800px) {
+  .benefits-item div {
+    left: -53px;
+  }
+}
+.bg-box .text-top {
+  margin: 0 0 68px;
+}
+.bg-box .title20 {
+  margin-bottom: 15px;
+}
+.bg-box .small-circle {
+  margin-bottom: 63px;
+}
+@media (max-width: 800px) {
+  .bg-box .small-circle {
+    margin-bottom: 32px;
+  }
+}
+.bg-box .small-circle li {
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 12px;
+}
+@media (max-width: 800px) {
+  .bg-box {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .bg-box {
+    margin-bottom: 30px;
+  }
+}
+.how-we-works {
+  margin-bottom: 30px;
+}
+.how-we-works .title-30 {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=custom.css.map */
