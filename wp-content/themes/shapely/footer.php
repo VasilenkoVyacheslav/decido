@@ -71,6 +71,10 @@
 </div><!-- #page -->
 </div>
 <?php wp_footer(); ?>
-
+<!--   Only for cooperation page!!!   -->
+<div class="cooperation-circle">
+    <img src="<?php echo get_template_directory_uri() ?>/images/cooperation.png" alt="cooperation">
+</div>
+</div>
 </body>
 </html>

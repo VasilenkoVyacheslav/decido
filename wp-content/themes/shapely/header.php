@@ -39,6 +39,7 @@ if (1 == $shapely_transparent_header && $shapely_transparent_header_opacity) {
 </head>
 
 <body <?php body_class(); ?>>
+<div class="wrapper">
 <div id="main-wr">
 
 
