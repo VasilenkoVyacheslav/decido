@@ -6462,8 +6462,10 @@ ul.variations {
         }
     }
     #main.closed-f ul.products.columns-3 li.product {
-        width: 100%;
-        margin-left: 0 !important;
+        @media(max-width:440px){
+            width: 100%;
+            margin-left: 0!important;
+        }
     }
     #colophon .widget_products{
         .widget-title{
